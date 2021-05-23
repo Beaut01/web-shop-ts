@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 
 export const SideNav: React.FC = () => {
     return(
-        <div className='wrapper'>
+        <div className='wrapper d-flex' >
             <ul>
-                <NavLink to='/cpus'>
+                <NavLink to='/cpus' style={{color: 'black', fontSize: '12px'}}>
                     <p>Процессоры</p>
                 </NavLink>
                 <NavLink to='/telephones'>
