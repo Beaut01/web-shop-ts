@@ -1,9 +1,33 @@
 import React from 'react'
+import {Card} from './Card'
 
 export const Actual: React.FC = () => {
-    return(
+    return( 
         <div className='wrapperActual'>
-            <h1>Актуальное</h1>
+            <h2 className='text-center'>Актуальное</h2>
+            <div className='row'>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+                <div className='col-sm-4'>
+                    <Card />
+                </div>
+            </div>
+            
         </div>
     )
 }
