@@ -1,9 +1,12 @@
 import React from 'react'
+import { Categories } from '../components/Categories'
+import { Search } from '../components/Search'
 
 export const CpusPage: React.FC = () => {
     return(
         <div className='container'>
-            <h1>Страница Процессоров</h1>
+            <Search />
+            <Categories />
         </div>
     )
 }

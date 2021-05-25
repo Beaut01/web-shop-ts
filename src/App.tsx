@@ -7,8 +7,7 @@ import { BasketPage } from './pages/Basket'
 import { Information } from './pages/Information' 
 import { CpusPage } from './pages/Cpus'
 import { TelephonesPage } from './pages/Telephones'
-import { CpuElem } from './pages/Cpu'
-import { Telephone } from './pages/Telephone'
+import { Product } from './pages/Product'
 
 function App() {
   return (
@@ -20,8 +19,7 @@ function App() {
         <Route component={Information} path='/information'/>
         <Route component={CpusPage} path='/cpus'/>
         <Route component={TelephonesPage} path='/telephones'/>
-        <Route component={CpuElem} path='/cpus/id'/>
-        <Route component={Telephone} path='/telephones/id'/>
+        <Route component={Product} path='/product/id' />
       </Switch>
     </BrowserRouter>
   );
