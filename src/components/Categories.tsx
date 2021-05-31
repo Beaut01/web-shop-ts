@@ -11,6 +11,7 @@ export const Categories: React.FC = () => {
                 <li>10 ядер</li>
                 <li>16 ядер</li>
                 <li>12 ядер</li>
+                <li>2 ядра</li>
             </ul>
         </div>
     )
