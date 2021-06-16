@@ -31,8 +31,15 @@ export const BasketPage: React.FC = () => {
                         <span>Сумма заказа: 29 999 Р</span>
                     </div>
                     <div className="basket--bottom--buttons">
-                        <button className='btn btn-secondary'>Вернуться на главную</button>
-                        <button className='btn btn-warning'>Купить сейчас</button>
+                        <button className='button button--outline back'>
+                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                            <span>Вернуться назад</span>
+                        </button>
+                        <button className='button button--outline'>
+                            <span>Купить сейчас</span>
+                        </button>
                     </div>
                 </div>
             </div>

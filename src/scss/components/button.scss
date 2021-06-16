@@ -1,0 +1,116 @@
+@import '../variables.scss';
+
+.button{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+    span{
+        color: $yellow
+    }
+
+    i,
+    span,
+    path,
+    svg{
+        transition: all $duration ease-in-out;
+    }
+
+    &:hover{
+        background-color: darken(#fff, 8%);
+    }
+
+    &:active{
+        background-color: darken(#fff, 12%);
+        transform: translateY(1px);
+    }
+
+
+    &--circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        padding: 0;
+        border-width: 2px;
+    }
+
+    &--outline{
+        background-color: #fff;
+        border-color: $yellow;
+
+        span{
+            color: $yellow;
+        }
+
+        svg{
+            path{
+                fill: $yellow;
+            }
+        }
+
+        &:hover{
+            background-color: $yellow;
+
+            span{
+                color: #fff;
+            }
+    
+            svg{
+                path{
+                    fill: #fff;
+                }
+            }
+        }
+
+        &:active{
+            background-color: darken($yellow, 12%);
+        }
+    }
+
+    &--cart{
+        border-color: $yellow;
+        background-color: #fff;
+
+        span{
+            color: #000;
+            margin-left: 7px;
+        }
+
+        svg{
+            position: relative;
+            top: -2px;
+            path{
+                stroke: black;
+                stroke-width: 1.9;
+            }
+        }
+
+        &:hover{
+            background-color: $yellow;
+
+            span{
+                color: #fff;
+            }
+
+            svg{
+                path{
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+
+    &--buy{
+        width: 170px;
+        min-width: 170px;
+        height: 50px;
+    }
+}

@@ -5,7 +5,7 @@ export const Actual: React.FC = () => {
     return( 
         <div className='wrapperActual'>
             <h2 className='text-center'>Актуальное</h2>
-            <div className='row'>
+            <div className='row p-4'>
                 <div className='col-sm-4'>
                     <Card />
                 </div>
@@ -16,7 +16,7 @@ export const Actual: React.FC = () => {
                     <Card />
                 </div>
             </div>
-            <div className='row'>
+            <div className='row p-4'>
                 <div className='col-sm-4'>
                     <Card />
                 </div>
@@ -27,7 +27,6 @@ export const Actual: React.FC = () => {
                     <Card />
                 </div>
             </div>
-            
         </div>
     )
 }

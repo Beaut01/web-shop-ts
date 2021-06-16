@@ -9,6 +9,11 @@ export const CpusPage: React.FC = () => {
             <Search />
             <Categories />
             <ProductItem />
+            <ProductItem />
+            <ProductItem />
+            <ProductItem />
+            <ProductItem />
+            <ProductItem />
         </div>
     )
 }

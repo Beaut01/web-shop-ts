@@ -19,7 +19,7 @@ function App() {
         <Route component={Information} path='/information'/>
         <Route component={CpusPage} path='/cpus'/>
         <Route component={TelephonesPage} path='/telephones'/>
-        <Route component={Product} path='/product/id' />
+        <Route component={Product} path='/product' />
       </Switch>
     </BrowserRouter>
   );
