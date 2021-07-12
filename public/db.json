@@ -1,0 +1,188 @@
+{
+    "cpus":[
+        {
+            "id": 1,
+            "name": "AMD Ryzen 5 5600x OEM",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/276e738f441eefa1a74b517fa94cfdc1/cca2b331b0947fe2973ee287baea67acb2f568793792d5fe6c2451239a7a9ea0.jpg",
+            "description": {
+                "price": "22 999",
+                "cores": "6",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "12",
+                "basicFrequency": "3700",
+                "maxFrequency": "4600",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "192 Кб",
+                "L2": "3 Мб",
+                "L3": "32 Мб",
+                "TDP": "65",
+                "maxTemp": "95",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 2,
+            "name": "AMD Ryzen 5 5600x BOX",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/6fc9301be1ebc24c6a86d387db108b28/1df080ce2ba9939556bea15d1ba11cd384a90caa033715539a68a52569d373b6.jpg",
+            "description": {
+                "price": "24 999",
+                "cores": "6",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "12",
+                "basicFrequency": "3700",
+                "maxFrequency": "4600",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "192 Кб",
+                "L2": "3 Мб",
+                "L3": "32 Мб",
+                "TDP": "65",
+                "maxTemp": "95",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 3,
+            "name": "AMD Ryzen 7 5800x OEM",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/4387921a2058df83294c4591a140f9c6/72ead893eae419ae31fe09408ea825bc41a59c242322f1d0952a8e58efef7fb9.jpg",
+            "description": {
+                "price": "35 499",
+                "cores": "8",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "16",
+                "basicFrequency": "3800",
+                "maxFrequency": "4700",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "256 Кб",
+                "L2": "4 Мб",
+                "L3": "32 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 4,
+            "name": "AMD Ryzen 7 5800x BOX",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/5f81788e9adfbe2aa8b49d9e9a8c0b1d/a3bd8cd70c0e75bf76f25defbb740d33ee6d035ed18d23a617ff2ee86ab7055a.jpg",
+            "description": {
+                "price": "37 899",
+                "cores": "8",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "16",
+                "basicFrequency": "3800",
+                "maxFrequency": "4700",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "256 Кб",
+                "L2": "4 Мб",
+                "L3": "32 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 5,
+            "name": "AMD Ryzen 9 5900x OEM",
+            "image": "https://c.dns-shop.ru/thumb/st1/fit/wm/2000/2000/60ee4b7be210d4ffff6da9d3a5d4cd85/1c85261012bc0cb4dd69ed330c00d5886eed40fb63716d0c16f134d9d9789df2.jpg",
+            "description": {
+                "price": "47 999",
+                "cores": "12",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "24",
+                "basicFrequency": "3700",
+                "maxFrequency": "4800",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "384 Кб",
+                "L2": "6 Мб",
+                "L3": "64 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 6,
+            "name": "AMD Ryzen 9 5900x BOX",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/59c7e225420c568307be4ae91d338b63/dfc1838476d409419a830a2e9d660446309dc58d3cf2ea5182bcf637a82ed470.jpg",
+            "description": {
+                "price": "48 599",
+                "cores": "12",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "24",
+                "basicFrequency": "3700",
+                "maxFrequency": "4800",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "384 Кб",
+                "L2": "6 Мб",
+                "L3": "64 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 7,
+            "name": "AMD Ryzen 9 5950X OEM",
+            "image": "https://c.dns-shop.ru/thumb/st1/fit/wm/2000/2000/990464208aaa4bed6e06397803169568/0476e557c8f660fed59e191968a939b02313a3b3f2d91ea4eccf6eecd31a8f08.jpg",
+            "description": {
+                "price": "74 999",
+                "cores": "16",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "32",
+                "basicFrequency": "3400",
+                "maxFrequency": "4900",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "512 Кб",
+                "L2": "8 Мб",
+                "L3": "64 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        },
+        {
+            "id": 8,
+            "name": "AMD Ryzen 9 5950X BOX",
+            "image": "https://c.dns-shop.ru/thumb/st4/fit/wm/2000/2000/873ffaba8981cc38cb315d40e750430d/affc0a7045f71a852899aee74352d49cdfbc27a97c03547f1d29ef63a6dc1ede.jpg",
+            "description": {
+                "price": "75 999",
+                "cores": "16",
+                "coreName": "Vermeer",
+                "techProcess": "7",
+                "threads": "32",
+                "basicFrequency": "3400",
+                "maxFrequency": "4900",
+                "year": "2020",
+                "breed": "AMD 5000",
+                "L1": "512 Кб",
+                "L2": "8 Мб",
+                "L3": "64 Мб",
+                "TDP": "105",
+                "maxTemp": "90",
+                "PCI": "4.0",
+                "numPCI": "20"
+            } 
+        }
+    ]
+}
