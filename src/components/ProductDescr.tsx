@@ -1,18 +1,33 @@
 import React from 'react'
 
-export const ProductDescr: React.FC = () => {
+interface ProductDescr{
+    TDP: string,
+    threads?: string,
+    price: string,
+    cores?: string,
+    basicFrequency: string,
+    maxFrequency: string
+}
+
+interface ProductInfoProps{
+    image: string,
+    description: ProductDescr
+}
+
+
+export const ProductDescr: React.FC<ProductInfoProps> = ({image, description}) => {
     return(
         <div className="description">
-            <img src="https://cdn.kns.ru/linkpics/amd-ryzen-5-5600x-oem-0-v2.jpg" alt="cpu" className='description--image' />
+            <img src={image} alt="cpu" className='description--image' />
             <div className="description--info">
                 <div className="description--info-chrshort">
                     <img src="https://c.dns-shop.ru/thumb/st4/fit_width/110/110/f9920d0fd4bdf9864379462d200e9516/579fcf2fcaa9d2d73d4cf0bfc2d3fd5a45aedfc3477c25aeef78709b62c39a4b.png" alt="logo" />
-                    <h4>6 ядер 12 потоков, 3700-4400Гц, TDP 65 </h4>
+                    <h4>{description.cores} ядер {description.threads} потоков, {description.basicFrequency}-{description.maxFrequency}Гц, TDP {description.TDP}Вт </h4>
                 </div>
                 <div className="description--info-price">
                     <div className="description--info-price-info">
-                        <h3>24 000 Р</h3>
-                        <p>2 133 Р/мес</p>
+                        <h3>{description.price} Р</h3>
+                        <p>{Number(description.price)/12} Р/мес</p>
                         <div className='description--info-price-info-delivery'>
                             <div className='description--info-price-info-delivery-item'>
                                 <p>В наличии:</p>
